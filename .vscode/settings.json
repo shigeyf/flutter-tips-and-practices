@@ -1,0 +1,6 @@
+{
+  "dart.runPubGetOnPubspecChanges": "prompt",
+  "java.autobuild.enabled": false,
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.configuration.updateBuildConfiguration": "disabled"
+}

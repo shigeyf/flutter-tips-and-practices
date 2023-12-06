@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "commitizen": "^4.3.0",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "format:lint-staged": "prettier --write",
+    "format:dart:lint-staged": "dart format --fix",
+    "dartlint:lint-staged": "dart fix --apply"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
